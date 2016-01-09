@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<body class="w3-container">
+
+<h2>W3.CSS Modal</h2>
+<p>Add the .w3-card-* class to the .w3-modal-content container to display the modal as a card.</p>
+
+<button onclick="document.getElementById('id01').style.display='block'" class="w3-btn">Open Modal</button>
+
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-8 w3-padding-0">
+    <header class="w3-container w3-blue"> 
+      <span onclick="document.getElementById('id01').style.display='none'" 
+      class="w3-closebtn">×</span>
+      <h2>Dang nhap</h2>
+    </header>
+    <div class="w3-container w3-padding-0">
+       <form class="w3-form">
+	       <div class="w3-input-group">
+               <label class="w3-label">First Name</label>
+               <input class="w3-input w3-border" type="text">
+           </div>
+           <div class="w3-input-group">
+               <label class="w3-label">Last Name</label>
+               <input class="w3-input w3-border" type="text">
+            </div>
+            <div class="w3-input-group">
+                <label class="w3-label ">Password</label>
+                <input class="w3-input w3-border" type="password">
+            </div>
+            <div class="w3-containner w3-center">
+                <div class="w3-btn">xxy</div>
+            </div>
+        </form>
+    </div>
+    <footer class="w3-container ">
+      <br>
+    </footer>
+  </div>
+</div>
+            
+</body>
+</html> 
